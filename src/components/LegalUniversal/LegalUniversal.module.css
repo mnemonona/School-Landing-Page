@@ -1,0 +1,3585 @@
+.root {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.header1 {
+  position: relative;
+  width: 1440px;
+  height: 843px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 120px 0;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.hero2CoverSec {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image:/* webpackIgnore: true */ url('/assets/hero2CoverSec.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filterSec {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-color: #00000080;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: -0.5px;
+  width: 1322px;
+  height: 91px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.navbarStyle2NavbarLight {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1322px;
+  height: 91px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 324px;
+  padding: 10px 30px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.navbarBrandSec {
+  position: absolute;
+  left: calc(50% - 457.5px);
+  top: calc(50% - 2px);
+  width: 135px;
+  height: 52px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+.tHEUnit {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  position: absolute;
+  left: 0;
+  top: 13.5px;
+  width: 169px;
+  height: 55px;
+  flex-direction: column;
+}
+.navbarToggler {
+  position: absolute;
+  left: 1298px;
+  top: 39px;
+  width: 24px;
+  height: 13.7143px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.navbarTogglerIcon {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 24px;
+  height: 13.7143px;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.collapseNavbarCollapse {
+  position: absolute;
+  left: calc(50% - -96.5px);
+  top: 16.5px;
+  width: 843px;
+  height: 53px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.navbarNav {
+  position: absolute;
+  left: 0;
+  top: calc(50% - -1px);
+  width: 530px;
+  height: 26px;
+  align-items: center;
+  gap: 21px;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.liSec {
+  position: relative;
+  width: 43px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 46px;
+  height: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.link {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: -52.1739%;
+  right: -43.4783%;
+  top: 2%;
+  bottom: 2%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.liSec2 {
+  position: relative;
+  width: 59px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.a2 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 59px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.link2 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: -52.5424%;
+  right: -52.5424%;
+  top: -2.0833%;
+  bottom: -2.0833%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.liSec3 {
+  position: relative;
+  width: 51px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.a3 {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 55px;
+  height: 23px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.link3 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: -61.8182%;
+  right: -54.5455%;
+  top: -4.3478%;
+  bottom: 8.6957%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.liSec4 {
+  position: relative;
+  width: 72px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.a4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 58px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.link4 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: -51.7241%;
+  right: -53.4483%;
+  top: 4.1667%;
+  bottom: -4.1667%;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbarNav2 {
+  position: absolute;
+  right: 0;
+  top: calc(50% - -0.5px);
+  width: min-content;
+  height: min-content;
+  transform: translateY(-50%);
+}
+.navItemSec {
+  position: relative;
+  width: 214px;
+  height: 52px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.buttonBtnPrimaryColor {
+  position: absolute;
+  left: 76px;
+  top: 0.5px;
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #7d3e99;
+  overflow: hidden;
+}
+.btnText {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.icnArrowRightIcnXs {
+  width: 12px;
+  height: 10px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.container2 {
+  position: absolute;
+  left: 50%;
+  top: 91px;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.row {
+  width: 701px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.mainContent {
+  width: 699px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+.h5HeaderTagSec {
+  color: #7d3e99;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h1HeadlineSec {
+  width: 697px;
+  height: 176px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textBlock {
+  color: #fff;
+  font-size: 58px;
+  line-height: 80px;
+  font-family: Sora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 58px;
+  line-height: 80px;
+  font-family: Sora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.h4SubHeadlineSec {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 536px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ctaSec {
+  width: min-content;
+  height: min-content;
+}
+.buttonMd {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #7d3e99;
+  overflow: hidden;
+}
+.btnText2 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._14Layout1 {
+  position: relative;
+  width: 1440px;
+  height: 832px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 195px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.container3 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 112px;
+  padding: 112px 0;
+  transform: translateX(-50%);
+}
+.row2 {
+  width: 1044px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.mainContent2 {
+  width: 691px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+}
+.h6SectionTagSec {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h2SectionTitle2Sec {
+  color: #252b42;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 691px;
+  height: 93px;
+  flex-direction: column;
+}
+.paragraphSec {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.row3 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 30px;
+}
+.colMd3 {
+  width: 238px;
+  height: 289px;
+  flex-direction: column;
+}
+.card {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedWidthSec {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 22px 19px;
+  border-radius: 10px;
+  background-color: #fce75b;
+  overflow: hidden;
+}
+.image11 {
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('/assets/image11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.h5FeatureTitle4Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: 189px;
+  height: 44px;
+  flex-direction: column;
+}
+.fixedWidthFixedHeightSec {
+  width: 50px;
+  height: 2px;
+  background-color: #f3cd03;
+}
+.paragraphFeatureDescriptionSec {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 198px;
+  height: 37px;
+  flex-direction: column;
+}
+.colMd32 {
+  width: 241px;
+  height: min-content;
+  flex-direction: column;
+}
+.card2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedWidthSec2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 22px 19px;
+  border-radius: 10px;
+  background-color: #c5dde2;
+  overflow: hidden;
+}
+.image12 {
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('/assets/image12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h5FeatureTitle3Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: 201px;
+  height: 42px;
+  flex-direction: column;
+}
+.fixedWidthFixedHeightSec2 {
+  width: 50px;
+  height: 2px;
+  background-color: #f3cd03;
+}
+.paragraphFeatureDescriptionSec2 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 201px;
+  height: 38px;
+  flex-direction: column;
+}
+.colMd33 {
+  width: 240px;
+  height: min-content;
+  flex-direction: column;
+}
+.card3 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  background-color: #7d3e99;
+  overflow: hidden;
+}
+.fixedWidthSec3 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 22px 19px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.image13 {
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('/assets/image13.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h5FeatureTitle2Sec {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: 193px;
+  height: 40px;
+  flex-direction: column;
+}
+.fixedWidthFixedHeightSec3 {
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+.paragraphFeatureDescriptionSec3 {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock3 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.colMd34 {
+  width: 240px;
+  height: 289px;
+  flex-direction: column;
+}
+.card4 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 35px 40px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedWidthSec4 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 22px 19px;
+  border-radius: 10px;
+  background-color: #ffdcd1;
+  overflow: hidden;
+}
+.image14 {
+  width: 30px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('/assets/image14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h5FeatureTitle1Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: 177px;
+  height: 37px;
+  flex-direction: column;
+}
+.fixedWidthFixedHeightSec4 {
+  width: 50px;
+  height: 2px;
+  background-color: #f3cd03;
+}
+.paragraphFeatureDescriptionSec4 {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock5 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock6 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+._14Layout12 {
+  position: relative;
+  width: 1440px;
+  height: 1152px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 195px;
+  background-color: #c5dde2;
+  overflow: hidden;
+}
+.container4 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 112px;
+  padding: 112px 0;
+  transform: translateX(-50%);
+}
+.row4 {
+  width: 1044px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.mainContent3 {
+  width: 691px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+}
+.h6SectionTagSec2 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h2SectionTitle1Sec {
+  color: #252b42;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphSec2 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.row5 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 30px;
+}
+.colMd35 {
+  width: 238px;
+  height: min-content;
+  flex-direction: column;
+}
+.productCard {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.fixedHeight {
+  position: relative;
+  height: 300px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.productCover133Sec {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/productCover133Sec.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.productActionsSec {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.like {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.like2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.frame3 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  overflow: hidden;
+}
+.frame2 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.frame1Sec {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  overflow: hidden;
+}
+.linkProductCategory {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5ProductTitle1Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphProductDescriptionSec {
+  width: 182px;
+  height: 40px;
+  flex-direction: column;
+}
+.textBlock7 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock8 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.sales {
+  width: 16px;
+  height: 16px;
+}
+.prices {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px 3px;
+}
+.h5PriceSec {
+  color: #bdbdbd;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5PriceSec2 {
+  color: #40bb15;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.buttonSmSec {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  outline: solid 1px #7d3e99;
+  outline-offset: -1px;
+  border-radius: 37px;
+  overflow: hidden;
+}
+.h6 {
+  color: #7d3e99;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.icnArrowRightIcnXs2 {
+  width: 9.1429px;
+  height: 16px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.colMd36 {
+  width: 241px;
+  height: min-content;
+  flex-direction: column;
+}
+.productCard2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.fixedHeight2 {
+  position: relative;
+  height: 300px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.productCover131 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/productCover131.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.productActions {
+  position: absolute;
+  left: calc(50% - -0.5px);
+  bottom: 24px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.like3 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite3 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.like4 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite4 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.frame32 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  overflow: hidden;
+}
+.frame22 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.frame1Sec2 {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  overflow: hidden;
+}
+.linkProductCategory2 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5ProductTitle2Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphProductDescriptionSec2 {
+  width: 182px;
+  height: 40px;
+  flex-direction: column;
+}
+.textBlock9 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock10 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.sales2 {
+  width: 16px;
+  height: 16px;
+}
+.prices2 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px 3px;
+}
+.h5PriceSec3 {
+  color: #bdbdbd;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5PriceSec4 {
+  color: #40bb15;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.buttonSmSec2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  outline: solid 1px #7d3e99;
+  outline-offset: -1px;
+  border-radius: 37px;
+  overflow: hidden;
+}
+.h62 {
+  color: #7d3e99;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.icnArrowRightIcnXs3 {
+  width: 9.1429px;
+  height: 16px;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+}
+.colMd37 {
+  width: 240px;
+  height: min-content;
+  flex-direction: column;
+}
+.productCard3 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.fixedHeight3 {
+  position: relative;
+  height: 300px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.productCover130Sec {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/productCover130Sec.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.productActionsSec2 {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.like5 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite5 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+}
+.like6 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite6 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+}
+.frame33 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  overflow: hidden;
+}
+.frame23 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.frame1Sec3 {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  overflow: hidden;
+}
+.linkProductCategory3 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5ProductTitle3Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphProductDescriptionSec3 {
+  width: 182px;
+  height: 40px;
+  flex-direction: column;
+}
+.textBlock11 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock12 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.sales3 {
+  width: 16px;
+  height: 16px;
+}
+.prices3 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px 3px;
+}
+.h5PriceSec5 {
+  color: #bdbdbd;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5PriceSec6 {
+  color: #40bb15;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.buttonSmSec3 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  outline: solid 1px #7d3e99;
+  outline-offset: -1px;
+  border-radius: 37px;
+  overflow: hidden;
+}
+.h63 {
+  color: #7d3e99;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.icnArrowRightIcnXs4 {
+  width: 9.1429px;
+  height: 16px;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+}
+.colMd38 {
+  width: 240px;
+  height: min-content;
+  flex-direction: column;
+}
+.productCard4 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.fixedHeight4 {
+  position: relative;
+  height: 300px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.productCover132Sec {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/productCover132Sec.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.productActionsSec3 {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.like7 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite7 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+}
+.like8 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 44.7857px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.icnFavorite8 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.icon12 {
+  width: 100%;
+  height: 100%;
+}
+.frame34 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 25px 25px 35px;
+  overflow: hidden;
+}
+.frame24 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.frame1Sec4 {
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  overflow: hidden;
+}
+.linkProductCategory4 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5ProductTitle4Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphProductDescriptionSec4 {
+  width: 182px;
+  height: 40px;
+  flex-direction: column;
+}
+.textBlock13 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock14 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.sales4 {
+  width: 16px;
+  height: 16px;
+}
+.prices4 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px 3px;
+}
+.h5PriceSec7 {
+  color: #bdbdbd;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h5PriceSec8 {
+  color: #40bb15;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.buttonSmSec4 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  outline: solid 1px #7d3e99;
+  outline-offset: -1px;
+  border-radius: 37px;
+  overflow: hidden;
+}
+.h64 {
+  color: #7d3e99;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.icnArrowRightIcnXs5 {
+  width: 9.1429px;
+  height: 16px;
+}
+.icon13 {
+  width: 100%;
+  height: 100%;
+}
+._12Layout2 {
+  position: relative;
+  width: 1440px;
+  height: 865px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 195px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.container5 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px;
+  padding: 160px 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.row6 {
+  width: 1044px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.mainContent4 {
+  width: 691px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+}
+.h6SectionTagSec3 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h2SectionTitle4Sec {
+  color: #252b42;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphSec3 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.row7 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 30px;
+}
+.colMd6 {
+  width: 508px;
+  height: min-content;
+  flex-direction: column;
+}
+.testimonialsCard {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.circleSec {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 200px;
+  overflow: hidden;
+}
+.testimonialUserCover1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 128px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/testimonialUserCover1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  overflow: hidden;
+}
+.paragraphSec4 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 320px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.starsSec {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  overflow: hidden;
+}
+.icnBxsStar {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon14 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar2 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon15 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar3 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon16 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar4 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon17 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxStar {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon18 {
+  width: 100%;
+  height: 100%;
+}
+.frame1Sec5 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 0 25px;
+  overflow: hidden;
+}
+.h5UserTitle {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h65 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd62 {
+  width: 512px;
+  height: min-content;
+  flex-direction: column;
+}
+.testimonialsCard2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.circleSec2 {
+  position: relative;
+  width: 128px;
+  height: 128px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 200px;
+  overflow: hidden;
+}
+.testimonialUserCover2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 128px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/testimonialUserCover2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  overflow: hidden;
+}
+.paragraphSec5 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 311px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.starsSec2 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 5px;
+  overflow: hidden;
+}
+.icnBxsStar5 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon19 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar6 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon20 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar7 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon21 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxsStar8 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon22 {
+  width: 100%;
+  height: 100%;
+}
+.icnBxStar2 {
+  width: 22.0136px;
+  height: 22.0136px;
+}
+.icon23 {
+  width: 100%;
+  height: 100%;
+}
+.frame1Sec6 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 0 25px;
+  overflow: hidden;
+}
+.h5UserTitle2 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h66 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._14Layout2 {
+  position: relative;
+  width: 1440px;
+  height: 849px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 195px;
+  background-color: #c5dde2;
+  overflow: hidden;
+}
+.container6 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 112px;
+  padding: 112px 0;
+  transform: translateX(-50%);
+}
+.row8 {
+  width: 1044px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.mainContent5 {
+  width: 691px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  overflow: hidden;
+}
+.h6SectionTagSec4 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h3SectionTitleSec {
+  color: #252b42;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphSec6 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.row9 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 30px;
+}
+.colMd39 {
+  width: 238px;
+  height: min-content;
+  flex-direction: column;
+}
+.userCard {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedHeightSec {
+  position: relative;
+  height: 231px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.userCover1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 231px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/userCover1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent3 {
+  width: 232px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+}
+.h5UserTitleSec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.smallJobDescriptionSec {
+  color: #737373;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.socialMediaSec {
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.facebook {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignFacebookFilled {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon24 {
+  width: 100%;
+  height: 100%;
+}
+.instagram {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignInstagramOutlined {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon25 {
+  width: 100%;
+  height: 100%;
+}
+.twitter {
+  position: relative;
+  width: 24px;
+  height: 19.7647px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignTwitterOutlined {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 19.7647px;
+}
+.icon26 {
+  width: 100%;
+  height: 100%;
+}
+.colMd310 {
+  width: 241px;
+  height: min-content;
+  flex-direction: column;
+}
+.userCard2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedHeightSec2 {
+  position: relative;
+  height: 231px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.userCover2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 231px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/userCover2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent4 {
+  width: 232px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+}
+.h5UserTitleSec2 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.smallJobDescriptionSec2 {
+  color: #737373;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.socialMediaSec2 {
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.facebook2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignFacebookFilled2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon27 {
+  width: 100%;
+  height: 100%;
+}
+.instagram2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignInstagramOutlined2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon28 {
+  width: 100%;
+  height: 100%;
+}
+.twitter2 {
+  position: relative;
+  width: 24px;
+  height: 19.7647px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignTwitterOutlined2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 19.7647px;
+}
+.icon29 {
+  width: 100%;
+  height: 100%;
+}
+.colMd311 {
+  width: 240px;
+  height: min-content;
+  flex-direction: column;
+}
+.userCard3 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedHeightSec3 {
+  position: relative;
+  height: 231px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.userCover3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 231px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/userCover3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent5 {
+  width: 232px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+}
+.h5UserTitleSec3 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.smallJobDescriptionSec3 {
+  color: #737373;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.socialMediaSec3 {
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.facebook3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignFacebookFilled3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon30 {
+  width: 100%;
+  height: 100%;
+}
+.instagram3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignInstagramOutlined3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon31 {
+  width: 100%;
+  height: 100%;
+}
+.twitter3 {
+  position: relative;
+  width: 24px;
+  height: 19.7647px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignTwitterOutlined3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 19.7647px;
+}
+.icon32 {
+  width: 100%;
+  height: 100%;
+}
+.colMd312 {
+  width: 240px;
+  height: min-content;
+  flex-direction: column;
+}
+.userCard4 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 13px 19px 0px #00000012;
+}
+.fixedHeightSec4 {
+  position: relative;
+  height: 231px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.userCover4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 231px;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('/assets/userCover4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.cardContent6 {
+  width: 232px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  overflow: hidden;
+}
+.h5UserTitleSec4 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.smallJobDescriptionSec4 {
+  color: #737373;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.socialMediaSec4 {
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.facebook4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignFacebookFilled4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon33 {
+  width: 100%;
+  height: 100%;
+}
+.instagram4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignInstagramOutlined4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon34 {
+  width: 100%;
+  height: 100%;
+}
+.twitter4 {
+  position: relative;
+  width: 24px;
+  height: 19.7647px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignTwitterOutlined4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 19.7647px;
+}
+.icon35 {
+  width: 100%;
+  height: 100%;
+}
+._11Layout1 {
+  position: relative;
+  width: 1440px;
+  height: 594px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 195px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.container7 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 160px 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.row10 {
+  width: 692px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.mainContent6 {
+  width: 691px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.h6SectionTagSec5 {
+  color: #005a95;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.h3SectionTitle4Sec {
+  color: #252b42;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.paragraphSec7 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: 689px;
+  height: 46px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rowSec {
+  width: 688px;
+  height: min-content;
+  justify-content: center;
+}
+.colMd8 {
+  width: 688px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+}
+.subscribe {
+  position: relative;
+  width: 688px;
+  height: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.inputGroup {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 58px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.formControlInputStyle1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 19px 25px;
+  outline: solid 1px #e6e6e6;
+  outline-offset: -1px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+.yourEmail {
+  color: #737373;
+  font-size: 14px;
+  line-height: 28px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.inputGroupAppend {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 117px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 20px;
+  outline: solid 1px #e6e6e6;
+  outline-offset: -1px;
+  border-radius: 0 5px 5px 0;
+  background-color: #7d3e99;
+  overflow: hidden;
+}
+.inputGroupText {
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  position: absolute;
+  left: calc(50% - -1px);
+  top: calc(50% - -0.5px);
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 346px;
+  flex-direction: column;
+  gap: 40px;
+  padding: 120px 0;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  left: 0;
+  top: -13.5px;
+  width: 1440px;
+  height: 272px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 0;
+  background-color: #d9d9d9;
+  overflow: hidden;
+}
+.container8 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.row11 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 30px;
+  overflow: hidden;
+}
+.colMd2 {
+  width: 148px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.h5Sec {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.linkSec {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec2 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec3 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec4 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd22 {
+  width: 152px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.h5Sec2 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div3 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.linkSec5 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec6 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec7 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec8 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd23 {
+  width: 148px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.h5Sec3 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div4 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.linkSec9 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec10 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec11 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec12 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd24 {
+  width: 152px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.h5Sec4 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div5 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.linkSec13 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec14 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec15 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.linkSec16 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd4 {
+  width: 321px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  overflow: hidden;
+}
+.h5Sec5 {
+  color: #252b42;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div6 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.featureItemSec {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.bxBxPhone {
+  width: 24px;
+  height: 24px;
+}
+.icon36 {
+  width: 100%;
+  height: 100%;
+}
+.h67 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.featureItemSec2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.bxBxMap {
+  width: 24px;
+  height: 29.9997px;
+}
+.icon37 {
+  width: 100%;
+  height: 100%;
+}
+.h68 {
+  width: 279px;
+  height: 61px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textBlock15 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.textBlock16 {
+  margin-top: 0;
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+}
+.featureItemSec3 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+.carbonSendAlt {
+  width: 24px;
+  height: 26px;
+}
+.icon38 {
+  width: 100%;
+  height: 100%;
+}
+.h69 {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.div7 {
+  position: absolute;
+  left: 50%;
+  top: 258.5px;
+  width: 1440px;
+  height: 74px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 0;
+  background-color: #d9d9d9;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.container9 {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1050px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.row12 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 213px;
+  overflow: hidden;
+}
+.colMd7Sec {
+  width: 600px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.madeWithLoveByTHEUnitAllRightR {
+  color: #737373;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.2px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.colMd63 {
+  width: 236px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.socialMedia {
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+.facebookSec {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignFacebookFilled5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon39 {
+  width: 100%;
+  height: 100%;
+}
+.instagramSec {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignInstagramOutlined5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+}
+.icon40 {
+  width: 100%;
+  height: 100%;
+}
+.twitterSec {
+  position: relative;
+  width: 24px;
+  height: 19.7647px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.antDesignTwitterOutlined5 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 19.7647px;
+}
+.icon41 {
+  width: 100%;
+  height: 100%;
+}
